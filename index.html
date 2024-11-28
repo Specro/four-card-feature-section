@@ -12,26 +12,37 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 </head>
-<body class="flex flex-col h-full">
-  <main class="container mx-auto flex flex-grow items-center justify-center">
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+<body class="flex flex-col h-full bg-very-light-gray">
+  <main class="container mx-auto flex flex-grow items-center justify-center text-center">
+    <div class="mx-8 mb-16 mt-20">
+      <p class="font-extralight text-2xl md:text-4xl mb-1 text-very-dark-blue">Reliable, efficient delivery</p>
+      <h1 class="font-semibold text-2xl md:text-4xl mb-6 text-very-dark-blue">Powered by Technology</h1>
+      <p class="text-base text-grayish-blue mb-16 max-w-lg mx-auto">
+        Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+      </p>
+      <div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-6 md:gap-8 items-center">
+        <div class="bg-white flex flex-col rounded-md border-t-4 text-left p-7 md:p-8 border-cyan shadow-card h-64 row-span-2">
+          <h2 class="text-very-dark-blue text-xl font-semibold mb-2">Supervisor</h2>
+          <p class="text-base text-grayish-blue mb-9 text-sm leading-relaxed">Monitors activity to identify project roadblocks</p>
+          <img src="./images/icon-supervisor.svg" alt="supervisor" class="ml-auto mt-auto">
+        </div>
+        <div class="bg-white flex flex-col rounded-md border-t-4 text-left p-7 md:p-8 border-red shadow-card h-64">
+          <h2 class="text-very-dark-blue text-xl font-semibold mb-2">Team Builder</h2>
+          <p class="text-base text-grayish-blue mb-9 text-sm">Scans our talent network to create the optimal team for your project</p>
+          <img src="./images/icon-team-builder.svg" alt="team builder" class="ml-auto mt-auto">
+        </div>
+        <div class="bg-white flex flex-col rounded-md border-t-4 text-left p-7 md:p-8 border-orange shadow-card h-64 lg:order-last">
+          <h2 class="text-very-dark-blue text-xl font-semibold mb-2">Karma</h2>
+          <p class="text-base text-grayish-blue mb-9 text-sm">Regularly evaluates our talent to ensure quality</p>
+          <img src="./images/icon-karma.svg" alt="karma" class="ml-auto mt-auto">
+        </div>
+        <div class="bg-white flex flex-col rounded-md border-t-4 text-left p-7 md:p-8 border-blue shadow-card h-64 row-span-2">
+          <h2 class="text-very-dark-blue text-xl font-semibold mb-2">Calculator</h2>
+          <p class="text-base text-grayish-blue mb-9 text-sm">Uses data from past projects to provide better delivery estimates</p>
+          <img src="./images/icon-calculator.svg" alt="calculator" class="ml-auto mt-auto">
+        </div>
+      </div>
+    </div>
   </main>
   <footer class="text-center">
     <p>
